@@ -1,0 +1,425 @@
+* {
+  color: black;
+}
+
+html, body {
+  height: 100% !important;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #9AEAE9;
+
+}
+
+ .navbar {
+  background: linear-gradient(90deg, rgba(220, 246, 252, 0.9), rgba(245, 246, 252, 0.7)) !important;
+  width: 100%;
+  margin-left: 0;
+ }
+
+/* The navbar background image styling */
+.bg-img {
+  background-image: url("../img/dominicusbp.jpeg");
+  min-height: 480px;
+  width: 100%;
+  margin-left: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-bottom: 2.5em;
+}
+
+div.polaroid {
+  width: 27% !important;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px !important;
+  display: inline-block;
+  float: right;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+div.polaroid2 {
+  width: 35% !important;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px !important;
+  display: inline-block;
+  float: left;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+div.container {
+  text-align: center;
+  padding: 5px 5px;
+  width: 50% !important;
+  background-color: white;
+  display: inline-block;
+}
+
+.first-list li, .second-list li {
+  font-family: 'Kalam', cursive;
+  font-size: 1.8em;
+}
+
+li {
+  font-size: 1.8em;
+  list-style-type: none;
+  font-family: 'Kalam', cursive;
+}
+
+.tab-content {
+  text-align: center;
+  flex: 1 0 auto;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-family: 'Kalam', cursive;
+}
+
+.black {
+  color: black;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 2.2em;
+  font-family: 'Kalam', cursive;
+
+}
+
+h3 {
+  font-family: 'Kalam', cursive;
+  font-size: 2em;
+}
+
+h4 {
+  font-family: 'Kalam', cursive;
+  font-size: 1.8em;
+}
+
+p {
+  font-size: 1.8em;
+  font-family: 'Kalam', cursive;
+}
+
+.bold {
+  font-weight: bolder;
+}
+
+.piros {
+   color: red;
+   margin: 20px;
+   font-weight: bold;
+
+}
+
+.red {
+  color: red;
+}
+
+.rozsaszin {
+  color: #eb34e2;
+  margin: 20px;
+  font-weight: bold;
+}
+
+.kek {
+   color: blue;
+   margin: 20px;
+   font-weight: bold;
+}
+
+.green {
+  color: #1da305;
+  font-weight: bold;
+}
+
+.bleumarine {
+    color: #1058CF;
+    font-weight: bold;
+}
+
+.end {
+     display: flex;
+   }
+
+.intro-words {
+  display: flex;
+}
+.end-words {
+  display: flex;
+}
+#quote {
+ margin-left: 300px;
+
+}
+
+
+
+#red {
+    margin-left: 1%;
+    font-weight: bold;
+}
+
+#red2 {
+   margin: auto;
+   font-size: 18px;
+   font-weight: bold;
+}
+
+#red3 {
+  margin-left: 18%;
+  font-weight: bold;
+}
+
+.kek {
+   color: blue;
+   font-weight: bold;
+}
+
+/* FORMATTING THE REGISTRATION FORM */
+/* * {
+  box-sizing: border-box;
+} */
+
+
+
+input[type=text], select, textarea {
+  width: 90%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  font-family: 'Kalam', cursive;
+  font-size: 1.5em;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  margin-bottom: 5%;
+  margin-right: 8%;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 20%;
+  margin-top: 6px;
+  margin-left: 1%;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* End of FORMATTING THE REGISTRATION FORM */
+
+.galeria {
+  width: 300px;
+  height:250px;
+  margin:5px;
+  padding:0;
+  object-fit: contain;
+}
+
+.picname {
+text-align: left;
+color: blue;
+margin-left: 10px;
+}
+
+#fotok {
+ margin-left: 10px;
+ margin-right: 10px;
+ display: inline-block;
+
+}
+
+/************* FOOTER *************/
+.footer-links {
+  background: linear-gradient(90deg, rgba(220, 246, 252, 0.7), rgba(245, 246, 252, 0.7)) !important;
+  padding: 1.5%;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.footer-logos {
+  text-align: center;
+}
+
+#facebook-link,  #mail-link{
+  font-size: 3em;
+  margin: 0.3em;
+}
+/************* End of FOOTER *************/
+
+
+
+/* test section */
+nav {
+  background: black;
+  padding: 5px 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.logo a:hover {
+  text-decoration: none;
+}
+.menu li {
+  font-size: 16px;
+  padding: 15px 5px;
+  white-space: nowrap;
+}
+.logo a,
+.toggle a {
+  font-size: 20px;
+}
+.button.secondary {
+  border-bottom: 1px #444 solid;
+}
+
+
+/* Mobile menu */
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.toggle {
+    order: 1;
+}
+.item.button {
+    order: 2;
+}
+.item {
+    width: 100%;
+    text-align: center;
+    order: 3;
+    display: none;
+}
+.item.active {
+    display: block;
+}
+
+
+/* Tablet menu */
+@media all and (min-width: 600px) {
+    .menu {
+        justify-content: flex-start;
+    }
+    .logo {
+        flex: 1;
+    }
+    .toggle {
+        flex: 1;
+        text-align: right;
+    }
+    .item.button {
+        width: auto;
+        order: 1;
+        display: block;
+    }
+    .toggle {
+        order: 2;
+    }
+    .button.secondary {
+        border: 0;
+    }
+    .button a {
+        padding: 7.5px 15px;
+        background: teal;
+        border: 1px #006d6d solid;
+    }
+    .button.secondary a {
+        background: transparent;
+    }
+    .button a:hover {
+        text-decoration: none;
+    }
+    .button:not(.secondary) a:hover {
+        background: #006d6d;
+        border-color: #005959;
+    }
+    .button.secondary a:hover {
+        color: #ddd;
+    }
+}
+
+
+/* Desktop menu */
+@media all and (min-width: 900px) {
+    .item {
+        display: block;
+        width: auto;
+    }
+    .toggle {
+        display: none;
+    }
+    .logo {
+        order: 0;
+    }
+    .item {
+        order: 1;
+    }
+    .button {
+        order: 2;
+    }
+    .menu li {
+        padding: 15px 10px;
+    }
+    .menu li.button {
+        padding-right: 0;
+    }
+}
+/* end of test section */
